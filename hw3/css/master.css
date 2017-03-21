@@ -1,0 +1,164 @@
+*{
+
+margin: 0;
+padding: 0;
+
+}
+
+body{
+
+background-color: #f9f9f9;
+
+}
+.parent {
+
+position: relative;
+margin: auto;
+width: 80%;
+height: 1000px;
+margin: auto;
+background: #fff;
+}
+
+
+
+.logo{
+display: block;
+margin: auto;
+width:90%;
+ height: 130px;
+overflow: hidden;
+}
+.logo img{
+   margin-top: 35px;
+ }
+
+
+.menu{
+
+  width: 92%;
+  height: 40px;
+  margin: 0 auto;
+background: linear-gradient(to top, #464545, #525151, #5e5e5e);
+}
+
+.menu a{
+
+
+  text-decoration: none;
+  color: white;
+}
+
+
+.menu li{
+  font-family: 'Oswald', sans-serif;
+  background: linear-gradient(to top, #464545, #525151, #5e5e5e);
+display: inline-block;
+padding: 7px 70px;
+border-left: 1px solid transparent;
+border-right: 1px solid transparent;
+
+}
+
+.menu li:hover{
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+background: linear-gradient(to top, #2f2f2f, #4a4a4a);
+
+}
+
+
+.sidebar ul {
+
+  width: 240px;
+  float: left;
+  margin-top: 85px;
+  margin-left: 50px;
+  padding: 10px;
+  padding-left: 10px;
+
+}
+
+
+.sidebar li{
+
+  border: 0.5px solid #c8c8c8;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
+list-style:none;
+padding: 10px;
+padding-left: 25px;
+}
+
+.sidebar a{
+  text-decoration: none;
+color: #333333;
+
+
+}
+.sidebar a:hover{
+
+margin-left: 15px;
+color: black;
+
+
+}
+
+.sidebar li:hover{
+
+
+
+background: #f9f9f9;
+}
+
+.velik{
+  display: block;
+  width: 763px;
+  float: left;
+  padding-left: 100px;
+}
+.velik p{
+
+
+  width: 640px;
+  padding-left: 60px;
+margin-top: 40px;
+}
+
+
+
+.velik img{
+margin-top: 100px;
+   margin-left: 50px;
+  border: 1px solid grey;
+
+}
+
+
+
+
+footer{
+margin: 0 auto;
+
+margin-top: 800px;
+clear: both;
+
+width: 92%;
+padding: 10px;
+
+background-color: #e1e1e1;
+
+}
+
+
+
+footer ul{
+
+  list-style: none;
+  /*float: left;*/
+}
+footer li{
+  padding-left: 80px;
+  display: inline-block;
+}
+
+footer span{float: right;}
