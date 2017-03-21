@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+   background-image: url(../img/1.png);
+  }
+
+
+.parent {
+  position: relative;
+  width: 993px; /* Ширина элемента в пикселах */
+min-height: 900px;
+height: 1px;
+    margin: auto; /* Выравниваем по центру */
+    background: #fff;
+
+
+
+
+}
+.top{
+margin-left: 25px;
+display: block;
+height: 200px;
+
+
+}
+
+.top{float: right;}
+
+
+
+
+.logo{
+  float: left;
+  margin: 20px;
+
+}
+
+.cont{
+
+  float: right;
+  list-style: none;
+  color: #128aa7;
+  margin-right: 25px;
+  margin-bottom: 40px;
+
+}
+
+.cont li{ list-style: none;}
+
+
+.count{
+font-size: 13px;
+  clear: right;
+
+}
+   .count li{
+
+
+
+    float: right;
+
+
+
+     list-style: none;
+
+    padding: 13px;
+    text-decoration: underline;
+    color: #128aa7;
+   }
+
+   .sign figcaption {
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+   }
+
+.sea{
+  width: 100%;
+  display: inline-block;
+
+}
+
+.menu{
+  position: absolute;
+
+
+display: inline-block;
+background-color: #333333;
+margin-top: -5px;
+margin-right: 0;
+width: 100%;
+
+}
+.menu li{
+
+
+display: inline-block;
+text-align: center;
+
+margin-right: 0;
+  padding: 0;
+
+  list-style: none;
+  width: 136px;
+}
+
+
+
+.menu  ul {
+
+margin-right: 0;
+height: 30px;
+
+    width: 137px; /* Ширина меню */
+    list-style: none; /* Для списка убираем маркеры */
+    margin: 0; /* Нет отступов вокруг */
+    padding: 0; /* Убираем поля вокруг текста */
+    font-family: Arial, sans-serif; /* Рубленый шрифт для текста меню */
+    font-size: 10pt; /* Размер названий в пункте меню */
+   }
+.menu    li ul {
+
+    position: absolute; /* Подменю позиционируются абсолютно */
+    display: none;
+    margin-right: 0; /* Скрываем подменю */
+    /*mamargin-right: 0;rgin-left: 165px; /* Сдвигаем подменю вправо */*/
+    /*margin-top: -2em; /* Сдвигаем подменю вверх */*/
+   }
+.menu    li a {
+     position: relative;
+   text-align:center; display:block;
+    vertical-align:-8px;
+    display: block; /* Ссылка как блочный элемент */
+    padding: 5px; /* Поля вокруг надписи */
+    text-decoration: none; /* Подчеркивание у ссылок убираем */
+    color: white; /* Цвет текста */
+margin-right: 0;
+    background-color: #333333; /* Цвет фона */
+    border-bottom: none; /* Границу снизу не проводим */
+   }
+.menu    li a:hover {
+    color: #ffe; /* Цвет текста активного пункта */
+     /* Цвет фона активного пункта */
+   }
+.menu    li:hover ul {
+    display: block; /* При выделении пункта курсором мыши отображается подменю */
+   }
+
+
+.drg {
+  clear: both;
+
+}
+
+.info{
+
+  float: left;
+  padding: 15px;
+  width: 25%;
+  background-color: #edeef0;
+  margin-top: 20px;
+height: 402px;
+}
+
+.news{
+
+  width: 25%;
+  float: right;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #edeef0;
+height: 402px;
+}
+
+
+.footer{
+text-align:  center;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
