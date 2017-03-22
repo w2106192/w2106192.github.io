@@ -73,7 +73,15 @@ font-size: 13px;
     text-decoration: underline;
     color: #128aa7;
    }
+.img{
+display: block;
+margin-top: 100px;
 
+
+
+
+
+}
    .sign figcaption {
     margin: 0 auto 5px; /* Отступы вокруг абзаца */
    }

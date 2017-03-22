@@ -50,7 +50,7 @@ background: linear-gradient(to top, #464545, #525151, #5e5e5e);
 }
 
 
-.menu li{
+.menu li{display: inline-block;
   font-family: 'Oswald', sans-serif;
   background: linear-gradient(to top, #464545, #525151, #5e5e5e);
 display: inline-block;
