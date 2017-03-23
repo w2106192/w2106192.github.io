@@ -12,15 +12,84 @@ body{
    position: relative;
 width: 100%;
 float: right;
-background-color: #074f8d;
-height: 40px;
+background-color: #075291;
+height: 38px;
  }
-header li{
-float: right;
-display: inline-block;
+
+
+.nav2{float: right;
+list-style: none;
+display: inline-block;}
+
+.nav2 a{
+  display: block;
+font-weight: bold;
 padding: 10px 30px;
 
 }
+
+.nav2 li{
+float: right;
+display: inline-block;
+
+
+}
+
+.img{
+  border-left: 1px solid #fff;
+}
+
+.nav2 img{
+  position: absolute;
+
+
+
+}
+
+
+.nav2 li:hover{
+background: linear-gradient(to top, #2e7ac4, #50afdc );
+}
+
+
+
+ .nav{
+margin-right: 20px;
+   float: right;
+   list-style: none;
+   display: inline-block;
+ }
+
+
+
+
+
+
+
+.nav a{
+  display: block;
+font: bold;
+color: #4eabda;
+padding: 10px 30px;
+}
+
+.nav li{
+float: right;
+display: inline-block;
+
+
+}
+.nav li:hover{
+  background-color: #4eabda;
+  color: white;}
+  .nav a:hover{color: white;
+
+
+  }
+
+
+
+
 header a{
 text-decoration: none;
 color: white;
@@ -112,6 +181,21 @@ width: 266px;
 form div{
 margin-top: 20px;
 
+}
+.name input:hover{
+background-color: #1b5288;
+}
+.LName input:hover{
+background-color: #1b5288;
+}
+.email input:hover{
+background-color: #1b5288;
+}
+.pass input:hover{
+background-color: #1b5288;
+}
+.rpass input:hover{
+background-color: #1b5288;
 }
 
 
