@@ -14,7 +14,7 @@ background-color: #f9f9f9;
 
 position: relative;
 margin: auto;
-width: 80%;
+width: 60%;
 height: 1000px;
 margin: auto;
 background: #fff;
@@ -44,7 +44,7 @@ background: linear-gradient(to top, #464545, #525151, #5e5e5e);
 
 .menu a{
 
-
+font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: white;
 }
@@ -69,7 +69,7 @@ background: linear-gradient(to top, #2f2f2f, #4a4a4a);
 
 
 .sidebar ul {
-
+border-collapse: collapse;
   width: 240px;
   float: left;
   margin-top: 85px;
@@ -83,20 +83,22 @@ background: linear-gradient(to top, #2f2f2f, #4a4a4a);
 .sidebar li{
 
   border: 0.5px solid #c8c8c8;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
+  border-collapse: collapse;
+  /*box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);*/
 list-style:none;
 padding: 10px;
 padding-left: 25px;
 }
 
 .sidebar a{
+  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-color: #333333;
+color: #656363;
 
 
 }
 .sidebar a:hover{
-
+color: #FFF;
 margin-left: 15px;
 color: black;
 
@@ -111,15 +113,17 @@ background: #f9f9f9;
 }
 
 .velik{
+  position: absolute;
   display: block;
   width: 763px;
-  float: left;
+margin-left: 238px;
   padding-left: 100px;
 }
 .velik p{
 
+  font-family: 'Open Sans', sans-serif;
 
-  width: 640px;
+  width: 538px;
   padding-left: 60px;
 margin-top: 40px;
 }
@@ -137,10 +141,12 @@ margin-top: 100px;
 
 
 footer{
+
+
 margin: 0 auto;
 
 margin-top: 800px;
-clear: both;
+
 
 width: 92%;
 padding: 10px;
@@ -150,6 +156,15 @@ background-color: #e1e1e1;
 }
 
 
+footer a{
+  font-family: 'Open Sans', sans-serif;
+
+list-style: none;
+text-decoration: none;
+color: black;
+
+
+}
 
 footer ul{
 
@@ -161,4 +176,8 @@ footer li{
   display: inline-block;
 }
 
-footer span{float: right;}
+footer span{
+
+  font-family: 'Open Sans', sans-serif;
+
+  float: right;}
