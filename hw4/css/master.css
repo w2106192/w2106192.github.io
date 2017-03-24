@@ -11,6 +11,8 @@ body {
 
 
 .parent {
+  border-bottom: 2px solid black;
+  display: block;
   position: relative;
   width: 993px; /* Ширина элемента в пикселах */
 min-height: 900px;
@@ -39,7 +41,18 @@ height: 200px;
   float: left;
   margin: 20px;
 
+
+
 }
+.logo img{
+  position: absolute;
+
+margin-top: 28px;
+
+}
+
+
+
 
 .cont{
 
@@ -51,31 +64,60 @@ height: 200px;
 
 }
 
-.cont li{ list-style: none;}
+.cont li{font-family: 'Open Sans', sans-serif;}
+
+.count img{
+
+
+margin-left: 9px;
+
+}
+
+
+
 
 
 .count{
+  font-family: 'Open Sans', sans-serif;
 font-size: 13px;
   clear: right;
-
+margin-right: 20px;
 }
+
+
+.count p{
+  font-family: 'Open Sans', sans-serif;
+text-decoration: underline;
+position: absolute;
+margin left: 10px;
+}
+
    .count li{
 
-
-
+width: 20px;
+height: 20px;
+display: block;
     float: right;
 
 
-
+margin-left: 30px;
      list-style: none;
 
     padding: 13px;
     text-decoration: underline;
     color: #128aa7;
    }
-.img{
-display: block;
-margin-top: 100px;
+
+
+.count .center p{padding-left: 10px;
+}
+
+
+
+ .face img{
+
+margin-top: 13px;
+
 
 
 
@@ -104,8 +146,8 @@ width: 100%;
 
 }
 .menu li{
-
-
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
 display: inline-block;
 text-align: center;
 
@@ -171,7 +213,13 @@ margin-right: 0;
   width: 25%;
   background-color: #edeef0;
   margin-top: 20px;
-height: 402px;
+height: 398px;
+}
+.info h2{
+  font-family: 'Open Sans', sans-serif;
+font-size: 25px;
+}
+.info p{font-family: 'Open Sans', sans-serif;
 }
 
 .news{
@@ -181,11 +229,16 @@ height: 402px;
   padding: 15px;
   margin-top: 20px;
   background-color: #edeef0;
-height: 402px;
+height: 398px;
 }
-
+.news h2{
+  font-family: 'Open Sans', sans-serif;
+font-size: 25px;
+}
+.news p{font-family: 'Open Sans', sans-serif;}
 
 .footer{
+  font-family: 'Open Sans', sans-serif;
 text-align:  center;
 color: white;
 }
