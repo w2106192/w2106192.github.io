@@ -64,12 +64,14 @@ margin-top: 28px;
 
 }
 
-.cont li{font-family: 'Open Sans', sans-serif;}
+.cont li{
+font-size: 12px;
+  font-family: 'Open Sans', sans-serif;}
 
 .count img{
 
 
-margin-left: 9px;
+/*margin-left: 9px;*/
 
 }
 
@@ -79,33 +81,38 @@ margin-left: 9px;
 
 .count{
   font-family: 'Open Sans', sans-serif;
-font-size: 13px;
+
   clear: right;
-margin-right: 20px;
+margin-top: 130px;
 }
 
 
 .count p{
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
 text-decoration: underline;
-position: absolute;
-margin left: 10px;
+
+font-size: 10px;
+font-weight: bold;
 }
 
    .count li{
 
-width: 20px;
-height: 20px;
-display: block;
+/*width: 20px;*/
+/*height: 20px;*/
+/*display: block;*/
     float: right;
 
 
-margin-left: 30px;
+/*margin-left: 30px;*/
      list-style: none;
 
     padding: 13px;
     text-decoration: underline;
     color: #128aa7;
+    text-align: center;
+    display: inline-block;
+    margin-right: 3px;
+    min-width: 53px
    }
 
 
@@ -145,9 +152,11 @@ margin-right: 0;
 width: 100%;
 
 }
+
+
 .menu li{
 font-family: 'Open Sans', sans-serif;
-font-size: 13px;
+font-size: 14px;
 display: inline-block;
 text-align: center;
 
@@ -217,9 +226,12 @@ height: 398px;
 }
 .info h2{
   font-family: 'Open Sans', sans-serif;
-font-size: 25px;
+font-size: 18px;
 }
-.info p{font-family: 'Open Sans', sans-serif;
+.info p{
+
+font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .news{
@@ -233,9 +245,12 @@ height: 398px;
 }
 .news h2{
   font-family: 'Open Sans', sans-serif;
-font-size: 25px;
+font-size: 18px;
 }
-.news p{font-family: 'Open Sans', sans-serif;}
+.news p{
+
+font-size: 14px;
+  font-family: 'Open Sans', sans-serif;}
 
 .footer{
   font-family: 'Open Sans', sans-serif;
