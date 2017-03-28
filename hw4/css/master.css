@@ -6,7 +6,7 @@
 
 
 body {
-   background-image: url(../img/1.png);
+   background-image: url(../img/trg.png);
   }
 
 
@@ -64,7 +64,10 @@ margin-top: 28px;
 margin-top: 15px;
 }
 
-.cont li{    padding-top: 5px;
+.cont li{
+
+list-style: none;
+   padding-top: 5px;
 font-size: 12px;
   font-family: 'Open Sans', sans-serif;}
 
@@ -106,13 +109,16 @@ font-weight: bold;
 /*margin-left: 30px;*/
      list-style: none;
 
-    padding: 13px;
+     padding-top: 15px;
+     padding-right: 5px;
+     padding-bottom: 5px;
+     padding-left: 5px;
     text-decoration: underline;
     color: #128aa7;
     text-align: center;
     display: inline-block;
     margin-right: 3px;
-    min-width: 53px
+    min-width: 47px
    }
 
 
@@ -141,7 +147,7 @@ margin-top: 13px;
 
 }
 
-.menu{
+#menu{
   position: absolute;
 
 
@@ -154,7 +160,7 @@ width: 100%;
 }
 
 
-.menu li{
+#menu li{
 font-family: 'Open Sans', sans-serif;
 font-size: 14px;
 display: inline-block;
@@ -169,7 +175,7 @@ margin-right: 0;
 
 
 
-.menu  ul {
+#menu  ul {
 
 margin-right: 0;
 height: 30px;
@@ -181,7 +187,7 @@ height: 30px;
     font-family: Arial, sans-serif; /* Рубленый шрифт для текста меню */
     font-size: 10pt; /* Размер названий в пункте меню */
    }
-.menu    li ul {
+#menu    li ul {
 
     position: absolute; /* Подменю позиционируются абсолютно */
     display: none;
@@ -189,7 +195,7 @@ height: 30px;
     /*mamargin-right: 0;rgin-left: 165px; /* Сдвигаем подменю вправо */*/
     /*margin-top: -2em; /* Сдвигаем подменю вверх */*/
    }
-.menu    li a {
+#menu    li a {
      position: relative;
    text-align:center; display:block;
     vertical-align:-8px;
@@ -201,58 +207,93 @@ margin-right: 0;
     background-color: #333333; /* Цвет фона */
     border-bottom: none; /* Границу снизу не проводим */
    }
-.menu    li a:hover {
+
+#menu li:before {
+     content: "";
+     border-width: 0.5em;
+     border-style: solid;
+     border: 3px solid transparent;	border-top: 6px solid white;  position: absolute;
+     position: absolute;
+     top: 0.7em;
+     left: 18.8em;
+
+   }
+
+   #menu li:nth-child(3):after{content: "";
+  border-width: 0.5em;
+  border-style: solid;
+border: 3px solid transparent;	border-top: 6px solid white;  position: absolute;
+  top: 0.7em;
+  left: 27.25em;
+}
+
+
+
+#menu    li a:hover {
     color: #ffe; /* Цвет текста активного пункта */
      /* Цвет фона активного пункта */
    }
-.menu    li:hover ul {
+#menu    li:hover ul {
     display: block; /* При выделении пункта курсором мыши отображается подменю */
    }
 
 
-.drg {
+#menu li:nth-child(4):after{content: "";
+border-width: 0.5em;
+border-style: solid;
+border: 3px solid transparent;	border-top: 6px solid white;  position: absolute;
+top: 0.7em;
+left: 38.25em;
+
+}
+
+
+drg {
   clear: both;
 
 }
 
 .info{
+  border-right: 1px solid #c7cacf;
 
   float: left;
   padding: 15px;
-  width: 25%;
+  width: 18%;
   background-color: #edeef0;
   margin-top: 20px;
 height: 398px;
 }
-.info h2{
+.info h2{text-align: center;
   font-family: 'Open Sans', sans-serif;
 font-size: 18px;
 }
 .info p{
-
+line-height: 24px;
 font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 }
 
 .news{
-
-  width: 25%;
+border-left: 1px solid #c7cacf;
+  width: 18%;
   float: right;
   padding: 15px;
   margin-top: 20px;
   background-color: #edeef0;
 height: 398px;
 }
-.news h2{
+.news h2{text-align: center;
   font-family: 'Open Sans', sans-serif;
 font-size: 18px;
 }
 .news p{
 
+line-height: 24px;
 font-size: 14px;
   font-family: 'Open Sans', sans-serif;}
 
 .footer{
+  font-size: 12px;
   font-family: 'Open Sans', sans-serif;
 text-align:  center;
 color: white;
