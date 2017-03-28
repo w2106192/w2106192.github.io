@@ -14,10 +14,11 @@ background-color: #f9f9f9;
 
 position: relative;
 margin: auto;
-width: 1562px;
+width: 1054px;
 height: 1000px;
 margin: auto;
 background: #fff;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 
@@ -26,11 +27,13 @@ background: #fff;
 display: block;
 margin: auto;
 width:90%;
- height: 130px;
+ height: 119px;
 overflow: hidden;
 }
 .logo img{
-   margin-top: 35px;
+  position: absolute;
+   margin-top: 40px;
+   margin-left: -7px;
  }
 
 
@@ -39,7 +42,7 @@ overflow: hidden;
   width: 92%;
   height: 40px;
   margin: 0 auto;
-background: linear-gradient(to top, #464545, #525151, #5e5e5e);
+  background: linear-gradient(to top, #464545, #525151, #5e5e5e);
 }
 
 .menu a{
@@ -55,11 +58,21 @@ font-size: 15px;
   font-family: 'Oswald', sans-serif;
   background: linear-gradient(to top, #464545, #525151, #5e5e5e);
 display: inline-block;
-padding: 7px 53px;
+padding: 7px 38px;
 border-left: 1px solid transparent;
 border-right: 1px solid transparent;
 
 }
+
+.menu li a:first-child{margin-left: -13px;}
+
+
+.menu li:first-child{
+  padding: 7px 40px;
+}
+
+
+
 
 .menu li:hover{
   border-left: 1px solid #838383;
@@ -73,8 +86,8 @@ background: linear-gradient(to top, #2f2f2f, #4a4a4a);
 border-collapse: collapse;
   width: 240px;
   float: left;
-  margin-top: 85px;
-  margin-left: 57px;
+  margin-top: 31px;
+  margin-left: 35px;
   padding: 10px;
   padding-left: 10px;
 
@@ -123,12 +136,12 @@ background: #f9f9f9;
 .velik{
   position: absolute;
   display: block;
-  border: 1px solid grey;
+  border: 1px solid #c8c8c8;
   height: 400px;
-  width: 673px;
+  width: 675px;
 
-  margin-top: 100px;
-margin-left: 425px;
+  margin-top: 41px;
+margin-left: 332px;
 
 
 }
@@ -136,12 +149,13 @@ margin-left: 425px;
 display: block;
 
   font-family: 'Open Sans', sans-serif;
-font-size: 13px;
+font-size: 13.33px;
 
 
-margin-top: 78px;
-text-align: center;
-padding-left: 5px;
+
+margin-top: 76px;
+text-align: left;
+padding-left: 20px;
 }
 
 
@@ -161,7 +175,7 @@ footer{
 
 margin: 0 auto;
 
-margin-top: 715px;
+margin-top: 683px;
 
 
 width: 92%;
@@ -188,12 +202,22 @@ footer ul{
   margin-bottom: 100px;
 }
 footer li{
-  padding-left: 80px;
+  padding-left: 69px;
   display: inline-block;
 }
 
-footer span{
-
+footer span{margin-right: 27px;
+font-size: 13.3px;
   font-family: 'Open Sans', sans-serif;
 
   float: right;}
+
+
+footer li:first-child{
+  margin-left: -40px;
+}
+
+
+
+footer li:hover{
+  text-decoration: underline;}
