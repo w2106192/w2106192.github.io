@@ -10,11 +10,70 @@ tr {
   padding: 0;
 
 }
-.two td{
-border-bottom: none;
-}
-td{
+/*td{
   border: 8px solid black;
-  width: 100px;
-  height: 100px;
+  width: 193px;
+  height: 120px;
+}*/
+
+.two td{
+  width: 193px;
+  height: 120px;
+background-color: white;
+border: 8px solid black;
 }
+.two td:last-child{
+  background-color: yellow;
+}
+
+
+
+
+.three td{
+  width: 293px;
+  height: 110px;
+background-color: red;
+border: 8px solid black;
+}
+.for td{
+  width: 293px;
+  height: 110px;
+background-color: white;
+border: 8px solid black;
+}
+.five td{
+  width: 50px;
+  height: 57px;
+background-color: white;
+border: 8px solid black;
+}
+
+.three td:last-child{
+  background-color: yellow;
+}
+.three td:first-child{
+  background-color: white;
+}
+
+
+
+.six td{
+
+    width: 293px;
+    height: 40px;
+  background-color: white;
+  border: 8px solid black;
+  }
+  .six td:last-child{
+    background-color: blue;
+  }
+  .six td:first-child{
+    background-color: yellow;
+  }
+  .seven td{
+
+      width: 293px;
+      height: 40px;
+    background-color: white;
+    border: 8px solid black;
+    }
