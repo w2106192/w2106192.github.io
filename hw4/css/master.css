@@ -70,7 +70,7 @@ margin-top: 15px;
 list-style: none;
    padding-top: 5px;
 font-size: 12px;
-  font-family: 'Open Sans', sans-serif;}
+  font-family: tahoma;}
 
 .count img{
 
@@ -84,7 +84,7 @@ font-size: 12px;
 
 
 .count{
-  font-family: 'Open Sans', sans-serif;
+  font-family: tahoma;
 
   clear: right;
 margin-top: 130px;
@@ -162,7 +162,7 @@ width: 100%;
 
 
 #menu li{
-font-family: 'Open Sans', sans-serif;
+  font-family: tahoma;
 font-size: 14px;
 display: inline-block;
 text-align: center;
@@ -265,13 +265,13 @@ drg {
 height: 398px;
 }
 .info h2{text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: tahoma;
 font-size: 18px;
 }
 .info p{
 line-height: 24px;
 font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+font-family: tahoma;
 }
 
 .news{
@@ -284,18 +284,19 @@ border-left: 1px solid #c7cacf;
 height: 398px;
 }
 .news h2{text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: tahoma;
 font-size: 18px;
 }
 .news p{
 
 line-height: 24px;
 font-size: 14px;
-  font-family: 'Open Sans', sans-serif;}
+font-family: tahoma;
+}
 
 .footer{
   font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: tahoma;
 text-align:  center;
 color: white;
 }
