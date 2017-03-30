@@ -1,4 +1,4 @@
-*{
+ *{
   margin: 0;
   padding: 0;
 }
@@ -12,7 +12,7 @@ body {
 
 
 .parent {
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid #031d28;
   display: block;
   position: relative;
   width: 993px; /* Ширина элемента в пикселах */
@@ -20,7 +20,7 @@ min-height: 900px;
 height: 1px;
     margin: auto; /* Выравниваем по центру */
     background: #fff;
-
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 
 
@@ -60,9 +60,16 @@ margin-top: 28px;
   float: right;
   list-style: none;
   color: #128aa7;
-  margin-right: 25px;
-  margin-bottom: 40px;
-margin-top: 15px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+margin-top: 39px;
+}
+
+
+.count ul{
+  margin-top: 40px;
+
+
 }
 
 .cont li{
@@ -72,12 +79,7 @@ list-style: none;
 font-size: 12px;
   font-family: tahoma;}
 
-.count img{
 
-
-/*margin-left: 9px;*/
-
-}
 
 
 
@@ -96,7 +98,7 @@ margin-top: 130px;
 text-decoration: underline;
 
 font-size: 10px;
-font-weight: bold;
+
 }
 
    .count li{
@@ -157,7 +159,7 @@ background-color: #333333;
 margin-top: -5px;
 margin-right: 0;
 width: 100%;
-
+height: 30px;
 }
 
 
@@ -165,7 +167,7 @@ width: 100%;
   font-family: tahoma;
 font-size: 14px;
 display: inline-block;
-text-align: center;
+
 
 margin-right: 0;
   padding: 0;
@@ -198,16 +200,48 @@ height: 30px;
    }
 #menu    li a {
      position: relative;
-   text-align:center; display:block;
+   text-align: left;
+   display:block;
     vertical-align:-8px;
     display: block; /* Ссылка как блочный элемент */
-    padding: 5px; /* Поля вокруг надписи */
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;/* Поля вокруг надписи */
     text-decoration: none; /* Подчеркивание у ссылок убираем */
     color: white; /* Цвет текста */
 margin-right: 0;
     background-color: #333333; /* Цвет фона */
     border-bottom: none; /* Границу снизу не проводим */
+margin-left: 10px;
+
    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #menu li:before {
      content: "";
@@ -216,7 +250,7 @@ margin-right: 0;
      border: 3px solid transparent;	border-top: 6px solid white;  position: absolute;
      position: absolute;
      top: 0.7em;
-     left: 18.8em;
+     left: 17.8em;
 
    }
 
@@ -225,7 +259,7 @@ margin-right: 0;
   border-style: solid;
 border: 3px solid transparent;	border-top: 6px solid white;  position: absolute;
   top: 0.7em;
-  left: 27.25em;
+  left: 25.1em;
 }
 
 
@@ -244,7 +278,7 @@ border-width: 0.5em;
 border-style: solid;
 border: 3px solid transparent;	border-top: 6px solid white;  position: absolute;
 top: 0.7em;
-left: 38.25em;
+left: 37.1em;
 
 }
 
@@ -300,22 +334,3 @@ font-family: tahoma;
 text-align:  center;
 color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.
