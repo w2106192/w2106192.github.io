@@ -24,8 +24,17 @@ body{
 
 }
 
+.menu__link:hover{
+  text-decoration: underline #edbfff;
 
+}
 
+.container__link:hover{
+color: #f3f2f4;
+text-shadow: 1px 1px 2px black, 0 0 1em white;
+}
+
+.menu--footer .menu__link:hover {text-decoration: underline #edbfff ;}
 
 .top{
 
@@ -35,7 +44,7 @@ body{
       width: 960px;
 
 }
-.menu{margin-left: 34%;
+.menu{margin-left: 32%;
     margin-top: 4.5%;
 
 position: absolute;
@@ -148,7 +157,7 @@ height: 340px;
 .container__link{
 color: #f9f9f9;
 text-decoration: none;
-padding-left: 73%;
+margin-left: 68%;
   font-family: 'League Gothic';
   font-size: 18px;
 }
@@ -282,7 +291,7 @@ margin: 0 1%;
           font-weight: 500;
     color: #250c0c;
     text-decoration: none;
-    padding-left: 73%;
+
     font-family: 'League Gothic';
     font-size: 19px;
 }
@@ -465,75 +474,4 @@ color: white;
     color: white;
     float: right;
     font-size: 13px;
-}
-
-@media screen and (max-width: 960px)
-{
-  .container {
-      display: flex;
-      justify-content: space-between;
-      margin: 0 auto;
-      width: 100%;
-      height: 340px;
-  }
-  .top {
-      margin-left: 0%; width: 100%;}
-
-  .iph {
-    position: absolute;
-    padding-top: 8%;
-    display: block;
-    width: 500px;
-    height: 240px;
-    margin-left: 0.8%;
-}
-
-}
-@media screen and (max-width: 768px) {
-
-
-  .top img {
-      position: absolute;
-      margin-top: 8%;
-  padding-left: 1%;
-  }
-  .menu {
-      margin-left: 1%;
-      margin-top: 15.5%;
-      position: absolute;}
-
-      .iph h3 {
-          margin-top: -1%;
-          font-size: 20px;
-          font-family: 'League Gothic';
-          color: #edbfff;
-      }
-
-      .iph h1 {
-          font-family: 'League Gothic';
-          font-size: 45px;
-          color: white;
-      }
-      .iph {
-    position: absolute;
-    padding-top: 8%;
-    display: block;
-    width: 306px;
-    height: 240px;
-  padding-top: 13%;
-  padding-left: 5%;
-}
-
-.iphone img {
-    position: absolute;
-    margin-left: 61%;
-    margin-top: -3%;
-}
-
-
-
-
-
-
-
 }
