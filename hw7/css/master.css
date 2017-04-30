@@ -3,14 +3,19 @@
 
 
 
+
+
+
+
 @font-face {
     font-family: 'league gothic';
-    src: url('fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
-         url('fonts/leaguegothic-regular-webfont.woff') format('woff');
+    src: url('league_gothic-webfont.woff2') format('woff2'),
+         url('league_gothic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+
 
 
 * {
