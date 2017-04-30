@@ -4,7 +4,7 @@
 
 
 @font-face {
-    font-family: 'League Gothic';
+    font-family: 'league gothic';
     src: url('fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
          url('fonts/leaguegothic-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -60,7 +60,7 @@ position: absolute;
 
 
 .menu__link{
-  font-family: 'League Gothic';
+  font-family: 'league gothic';
 color: white;
   text-decoration: none;
   font-size: 24px;
@@ -99,14 +99,14 @@ color: white;
 }
 
 .iph h1{
-font-family: 'League Gothic';
+font-family: 'league gothic';
 font-size: 54px;
   color: white;}
 
 
 .iph h3{ margin-top: -1%;
       font-size: 30px;
-font-family: 'League Gothic';
+font-family: 'league gothic';
   color: #edbfff;}
 
 
@@ -158,7 +158,7 @@ height: 340px;
 color: #f9f9f9;
 text-decoration: none;
 margin-left: 68%;
-  font-family: 'League Gothic';
+  font-family: 'league gothic';
   font-size: 18px;
 }
 
@@ -168,7 +168,7 @@ margin-left: 68%;
 .container__title{
 
     color: white;
-    font-family: 'League Gothic';
+    font-family: 'league gothic';
     font-size: 30px;
     padding-bottom: 13px;
     font-weight: 400;
@@ -292,7 +292,7 @@ margin: 0 1%;
     color: #250c0c;
     text-decoration: none;
 
-    font-family: 'League Gothic';
+    font-family: 'league gothic';
     font-size: 19px;
 }
 
@@ -313,7 +313,7 @@ margin: 0 1%;
 
   .article__item h2{
     font-size: 30px;
-font-family: 'League Gothic';
+font-family: 'league gothic';
 position: absolute;
     margin-top: -55%;
     padding-left: 9%;
@@ -322,7 +322,7 @@ font-weight: 500;}
 .article__item h3 {
 color: #edbfff;
 font-size: 30px;
-font-family: 'League Gothic';
+font-family: 'league gothic';
 position: absolute;
 margin-top: -55%;
 margin-left: 30%;
@@ -447,7 +447,7 @@ width: 100%;
 }
 
 .menu--footer{
-font-family: 'League Gothic';
+font-family: 'league gothic';
 
     margin-top: 42px;
 
@@ -465,7 +465,7 @@ position: absolute;
 color: white;
   text-decoration: none;
   font-size: 20px;
-  font-family: 'League Gothic';
+  font-family: 'league gothic';
 }
 
 
