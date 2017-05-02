@@ -63,6 +63,7 @@ position: absolute;
 
 
 .menu__link{
+  text-shadow: 1px 1px 1px black, 0 0 0em #000;
   font-family: 'league_gothicregular';
 color: white;
   text-decoration: none;
@@ -102,23 +103,29 @@ color: white;
 }
 
 .iph h1{
+  font-weight: 500;
+    text-shadow: 1px 1px 1px black, 0 0 0em #000;
 font-family: 'league_gothicregular';
-font-size: 54px;
+font-size: 60px;
   color: white;}
 
 
-.iph h3{ margin-top: -1%;
-      font-size: 30px;
+.iph h3{
+  font-weight: 500;
+    text-shadow: 1px 1px 1px black, 0 0 0em #000;
+
+   margin-top: -1%;
+      font-size: 32px;
 font-family: 'league_gothicregular';
   color: #edbfff;}
 
 
 .iph p{
-
+text-shadow: 1px 1px 1px black, 0 0 0em #000;
   line-height: 25px;
 font-size: 17px;
   font-family: 'Open Sans', sans-serif;
-  color: #eeedee;}
+  color: #f6f6f7;}
 
 
 
@@ -146,7 +153,8 @@ height: 340px;
   position: relative;
   overflow: hidden;
   font-family: 'Open Sans', sans-serif;
-  color: #aeaeae;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px black, 0 0 0em #000;
   font-size: 16px;
   line-height: 23px;
     width: 24%;
@@ -169,7 +177,7 @@ margin-left: 68%;
 
 
 .container__title{
-
+    text-shadow: 1px 1px 1px black, 0 0 0em #000;
     color: white;
     font-family: 'league_gothicregular';
     font-size: 30px;
@@ -234,7 +242,8 @@ height: 610px;
 }
 
   .article__item2 .container__title
-  {
+  {font-weight: 400;
+        text-shadow: 1px 0px 0px grey, 0 0 0em #000;
     color: black;
     margin-top: 2%;
       margin-left: -14%;}
@@ -280,6 +289,7 @@ margin: 0 1%;
 
 
       .article__item2 p{
+        text-shadow: 1px 0px 0px #ffffff, 0 0 0em #ffffff;
 
             position: absolute;
             font-family: 'Open Sans', sans-serif;
@@ -334,6 +344,10 @@ font-weight: 500;
 
 
 .article__item p {
+
+
+text-shadow: 1px 0px 0px #ffffff, 0 0 0em #ffffff;
+
     font-family: 'Open Sans', sans-serif;
     position: absolute;
     padding-left: 8%;
@@ -347,11 +361,22 @@ font-weight: 500;
   }
 
 
+.border {
+  width: 100%;
+    border-top: 1px solid #e6e6e6;
+    position: absolute;
+    margin-top: -114px;
+
+
+}
+
+
 .article__item3{
+  text-align: center;
 
-          width: 100%;
-      padding-top: 10%;
-
+      width: 100%;
+      padding-top: 1%;
+  }
 }
 
 
@@ -406,6 +431,7 @@ height: 200px;
 }
 
 .container--bottom .container__item{
+  text-shadow: 1px 0px 0px #ffffff, 0 0 0em #ffffff;
   position: relative;
   overflow: hidden;
   font-family: 'Open Sans', sans-serif;
@@ -422,7 +448,9 @@ height: 200px;
 
 
 
-.container--bottom .container__title {
+.container--bottom .container__title {font-weight: 200;
+    text-shadow: 1px 0px 0px grey, 0 0 0em #000;
+
     color: black;}
 
 
@@ -473,7 +501,17 @@ color: white;
 
 
 .footcent p{
+  font-family: 'Open Sans';
   margin-top: 5.5%;
+    color: white;
+    float: right;
+    font-size: 13px;
+}
+.footcent p span{
+  margin-left: 3px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+
     color: white;
     float: right;
     font-size: 13px;
