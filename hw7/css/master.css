@@ -27,17 +27,21 @@ body{
 
 }
 
-.menu__link:hover{
-  text-decoration: underline #edbfff;
+.menu__item:hover{
+  text-decoration: none;
+  border-bottom: 2px solid #edbfff;
 
 }
 
-.container__link:hover{
+
+
+
+.container a:hover{
 color: #f3f2f4;
 text-shadow: 1px 1px 2px black, 0 0 1em white;
 }
 
-.menu--footer .menu__link:hover {text-decoration: underline #edbfff ;}
+
 
 .top{
 
@@ -47,7 +51,7 @@ text-shadow: 1px 1px 2px black, 0 0 1em white;
       width: 960px;
 
 }
-.menu{margin-left: 32%;
+.menu{margin-left: 30%;
     margin-top: 4.5%;
 
 position: absolute;
@@ -55,15 +59,21 @@ position: absolute;
 }
 
 .menu__item {
-    padding-right: 49px;
-    display: inline-block;
+margin-left: 37px;
+  display: inline-block;
+
+
+  text-align: center;
 }
 
 .menu__item:last-child{padding-right: 0;}
 
 
 .menu__link{
-  text-shadow: 1px 1px 1px black, 0 0 0em #000;
+      margin-bottom: 7px;
+  margin-left: 5px;
+    margin-right: 5px;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
   font-family: 'league_gothicregular';
 color: #ffffff;
   text-decoration: none;
@@ -97,14 +107,14 @@ color: #ffffff;
   position: absolute;
     padding-top: 4%;
   display: block;
-  width: 500px;
+  width: 530px;;
   height: 240px;
   margin-left: 24.8%;
 }
 
 .iph h1{
   font-weight: 500;
-    text-shadow: 1px 1px 1px black, 0 0 0em #000;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 font-family: 'league_gothicregular';
 font-size: 60px;
   color: #fefefe;}
@@ -112,7 +122,7 @@ font-size: 60px;
 
 .iph h3{
   font-weight: 500;
-    text-shadow: 1px 1px 1px black, 0 0 0em #000;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 
    margin-top: -1%;
       font-size: 32px;
@@ -121,11 +131,12 @@ font-family: 'league_gothicregular';
 
 
 .iph p{
-text-shadow: 1px 1px 1px black, 0 0 0em #000;
-  line-height: 25px;
-font-size: 17px;
+text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  line-height: 24px;
+font-size: 18px;
+font-weight: lighter;
   font-family: 'Open Sans', sans-serif;
-  color: #f6f6f7;}
+  color: #ffffff;}
 
 
 
@@ -148,14 +159,13 @@ height: 340px;
 }
 
 .container__item {
-
+font-size: 16 px;
   padding-left: 63px;
   position: relative;
   overflow: hidden;
   font-family: 'Open Sans', sans-serif;
-  color: #b4abb9;
-  text-shadow: 1px 1px 1px black, 0 0 0em #000;
-  font-size: 16px;
+  color: #ffffff;
+text-shadow: 1px 1px 0px rgba(15, 21, 24, 1);
   line-height: 23px;
     width: 24%;
   display: inline-block;
@@ -177,7 +187,7 @@ margin-left: 68%;
 
 
 .container__title{
-    text-shadow: 1px 1px 1px black, 0 0 0em #000;
+    text-shadow: 1px 1px 0px rgba(15, 21, 24, 1);
     color: #ffffff;
     font-family: 'league_gothicregular';
     font-size: 30px;
@@ -226,7 +236,7 @@ height: 610px;
 }
 
 
-.face img{ margin-left: -5%;
+.face img{ margin-left: -4%;
     position: absolute;
     margin-top: 6%;
     padding-top: 2%;
@@ -243,7 +253,7 @@ height: 610px;
 
   .article__item2 .container__title
   {font-weight: 400;
-        text-shadow: 1px 0px 0px grey, 0 0 0em #000;
+        text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
     color: #454545;
     margin-top: 2%;
       margin-left: -14%;}
@@ -273,7 +283,7 @@ margin: 0 1%;
 
 
 .article__item2 span{
-
+text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
   font-weight: bolder;
     position: absolute;
     font-family: 'Open Sans', sans-serif;
@@ -289,8 +299,7 @@ margin: 0 1%;
 
 
       .article__item2 p{
-        text-shadow: 1px 0px 0px #ffffff, 0 0 0em #ffffff;
-
+        text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
             position: absolute;
             font-family: 'Open Sans', sans-serif;
             font-size: 15px;
@@ -325,6 +334,8 @@ margin: 0 1%;
 }
 
   .article__item h2{
+    color: #454545;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
     font-size: 30px;
 font-family: 'league_gothicregular';
 position: absolute;
@@ -333,6 +344,7 @@ position: absolute;
 font-weight: 500;}
 
 .article__item h3 {
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
 color: #edbfff;
 font-size: 30px;
 font-family: 'league_gothicregular';
@@ -346,15 +358,15 @@ font-weight: 500;
 .article__item p {
 
 
-text-shadow: 1px 0px 0px #ffffff, 0 0 0em #ffffff;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
 color: #454545;
     font-family: 'Open Sans', sans-serif;
-    position: absolute;
+
     padding-left: 8%;
     margin-top: -46%;
     font-size: 16px;
     width: 76%;
-    line-height: 24px}
+    line-height: 20px}
 
   .article__item img{    margin-top: 20%
 
@@ -369,6 +381,21 @@ color: #454545;
 
 
 }
+
+.border2 {
+  width: 100%;
+    border-top: 1px solid #fefefe;
+    position: absolute;
+
+
+
+}
+
+.border3 {width: 100%;
+  border-top: 1px solid #fefefe;
+  position: absolute;
+  margin-top: 112px;}
+
 
 
 .article__item3{
@@ -411,7 +438,7 @@ margin-top: -48%;}
 
 
 .bottom{
-
+border-top: 1px solid #d8d8d8;
 background-color: #ececec;
 height: 395px;
 width: 100%
@@ -425,31 +452,37 @@ width: 100%
       align-content:center;
       margin: 0 auto;
   margin: 0 auto;
-  padding-top: 5%;
+  padding-top: 98px;
 width: 960px;
-height: 200px;
+height: 301px;
 }
 
 .container--bottom .container__item{
-  text-shadow: 1px 0px 0px #ffffff, 0 0 0em #ffffff;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
   position: relative;
   overflow: hidden;
   font-family: 'Open Sans', sans-serif;
-  color: #aeaeae;
+  font-weight: lighter;
+  color: #787878;
   font-size: 16px;
   line-height: 24px;
   width: 30%;
   display: inline-block;
   padding-top: 0.1px;
-  height: 211px;
+  height: 266px;
   padding-left: 0;
 }
 
+.container--bottom span{text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
+ font-family: Georgia;
+ font-style: italic;
+ color: #c5c5c5;
 
+}
 
 
 .container--bottom .container__title {font-weight: 200;
-    text-shadow: 1px 0px 0px grey, 0 0 0em #000;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
 
     color: #454545;}
 
@@ -487,9 +520,10 @@ position: absolute;
 }
 
 .menu--footer .menu__item{
-      padding-right: 40px;
-  display: inline-block;
-
+  margin-left: 0;
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px;
 }
 
   .menu--footer     .menu__link{
@@ -506,8 +540,11 @@ color: #ffffff;
     color: #ffffff;
     float: right;
     font-size: 13px;
+    font-weight: lighter;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
 }
 .footcent p span{
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
   margin-left: 3px;
     font-family: 'Open Sans';
     font-weight: bold;
