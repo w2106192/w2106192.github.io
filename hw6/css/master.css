@@ -85,7 +85,7 @@ padding-left: 5px;
 
 .login-form-submit {
   float: right;
-    
+
     height: 16px;
     width: 30px;
     border: none;
@@ -553,6 +553,7 @@ font-weight: bolder;
 
 
 .middle-item-price {
+  padding-top: 2px;
 
   font-family: arial;
       font-style: italic;
@@ -564,6 +565,7 @@ font-weight: bolder;
 
 
 .middle-item-price span{
+  font-style: italic;
 font-family: 'arial';
    font-size: 16px;
    font-weight: bold;
