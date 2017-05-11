@@ -144,14 +144,14 @@ padding-left: 5px;
 
   box-shadow: 0 0 6px rgba(0,0,0,0.5);
   border-radius: 5px 5px 5px 5px;
-  margin-top: 5px;
+
     width: 912px;
     height: 30px;
     background: linear-gradient(to top, #030303, #505860);
 }
 .main-menu-center ul {
   padding-left: 130px;
-    margin-top: -4px;
+
     display: block;
     height: 30px;
     width: 575px;
@@ -159,14 +159,14 @@ padding-left: 5px;
 }
 
 .main-menu-center ul li {
-    display: inline;
+
 text-transform: uppercase;
     color: #b1bcc0;
     width: 105px;
     display: block;
     float: left;
+margin-top: 2px;
 
-    padding: 4px 0;
 }
 
 /*
@@ -183,20 +183,21 @@ border-radius: 15px 15px 15px 15px;
 
     border-radius: 15px 15px 15px 15px;
     background: #124569;
+background-position: center;
 }
 
 
 
 .main-menu-center ul li a {
-      height: 20px;
+  height: 22px;
   font-size: 14px;
   font-family: 'Lucida Sans Unicode', arial;
-text-decoration: none;
-    color: #b1bcc0;
-    padding: 5px 0px;
-    display: block;
-    width: 100%;
-    text-align: center;
+  text-decoration: none;
+  color: #b1bcc0;
+  padding: 4px 0px 0px 0px;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 
@@ -725,7 +726,8 @@ font-size: 14px;
 
 .SDB1 img{margin-left: -9px;}
 
-.but input{background-color: blue;
+.but input{
+  border: 0px;
   width: 90px;
   height: 30px;
 background: linear-gradient(to top, #0d365a, #298dbb);
