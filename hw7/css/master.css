@@ -517,7 +517,11 @@ font-family: 'league_gothicregular';
 
 }
 
+
+
+
 .menu--footer .menu__item{
+      height: 21px;
   margin-left: 0;
     display: inline-block;
     text-align: center;
