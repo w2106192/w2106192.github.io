@@ -391,10 +391,6 @@ color: #454545;
 
 }
 
-.border3 {width: 100%;
-  border-top: 1px solid #fefefe;
-  position: absolute;
-  margin-top: 112px;}
 
 
 
@@ -495,7 +491,7 @@ height: 301px;
 
 
 footer{
-  position: relative;
+display: flex;
   overflow: hidden;
 background: url(../img/footer.jpg) no-repeat;
 height: 120px;
@@ -505,17 +501,19 @@ width: 100%;
 
 
 .footcent{
-  display: block;
-  margin: 0 auto;
-  width: 960px;
+  justify-content: space-between;
+      align-items: center;
+      display: flex;
+
+      margin: 0 auto;
+      width: 960px;
 }
 
 .menu--footer{
 font-family: 'league_gothicregular';
 
-    margin-top: 42px;
 
-position: absolute;
+
 
 }
 
@@ -536,9 +534,9 @@ color: #ffffff;
 
 .footcent p{
   font-family: 'Open Sans';
-  margin-top: 5.5%;
+
     color: #ffffff;
-    float: right;
+
     font-size: 13px;
     font-weight: lighter;
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
