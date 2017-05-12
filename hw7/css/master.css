@@ -494,7 +494,7 @@ footer{
 display: flex;
   overflow: hidden;
 background: url(../img/footer.jpg) no-repeat;
-height: 120px;
+height: 109px;
 width: 100%;
 
 }
@@ -521,7 +521,8 @@ font-family: 'league_gothicregular';
 
 
 .menu--footer .menu__item{
-      height: 21px;
+  box-sizing: border-box;
+      height: 26px;
   margin-left: 0;
     display: inline-block;
     text-align: center;
