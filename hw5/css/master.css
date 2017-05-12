@@ -25,12 +25,24 @@ body{
 background-repeat: no-repeat;
 }
 .parent{
+  min-height: 100vh;
 
 display: flex;
 flex-direction: column;
-min-height: 600px;
+
 justify-content:center;
 align-items:center;
+
+}
+
+.flex{
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
 
 }
 
@@ -51,10 +63,9 @@ visibility: hidden;
  header{
    position: relative;
 width: 100%;
-float: right;
+
 background-image: url(../img/Background.png);
-height: 36px;
-margin-bottom: 211px;
+
  }
 
 
