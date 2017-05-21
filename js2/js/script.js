@@ -10,18 +10,18 @@ var name3 = prompt("Enter the name");
 var name4 = prompt("Enter the name");
 
 
-userChName.push(name);
-userChName.push(name1);
-userChName.push(name2);
-userChName.push(name3);
-userChName.push(name4);
+userName.push(name);
+userName.push(name1);
+userName.push(name2);
+userName.push(name3);
+userName.push(name4);
 
 console.log(userName);
 
 
 var userLogin = prompt("Enter your login");
 
-for (var i = 0; i < userChName.length; i++)
+for (var i = 0; i < userName.length; i++)
 {
 if (userName[i] === userLogin) {
 
@@ -31,8 +31,9 @@ if (userName[i] === userLogin) {
 }
 
 if (match) {
-  console.log(userLogin + " вы успешно вощли");
+  console.log(userLogin + " вы успешно вошли");
 
 } else {
   alert("Try again!")
+  var userLogin = prompt("Enter your login");
 }
