@@ -1,7 +1,7 @@
 'use stric';
 
 
-var userChName = [];
+var userName = [];
 
 var name = prompt("Enter the name");
 var name1 = prompt("Enter the name");
@@ -16,14 +16,14 @@ userChName.push(name2);
 userChName.push(name3);
 userChName.push(name4);
 
-console.log(userChName);
+console.log(userName);
 
 
 var userLogin = prompt("Enter your login");
 
 for (var i = 0; i < userChName.length; i++)
 {
-if (userChName[i] === userLogin) {
+if (userName[i] === userLogin) {
 
   var match = userLogin;
 }
