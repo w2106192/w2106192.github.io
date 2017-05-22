@@ -1,21 +1,20 @@
-'use stric';
+function pow(x, n) {
+  var result = x;
 
+  for (var i = 1; i < n; i++) {
+    result *= x;
+  }
 
-var userChNum = prompt("Enter a number", '');
-var userChPow = prompt("Enter a pow", '');
-
-if ( isNaN(userChNum) && isNaN(userChPow)) {
-  console.log('try again');
-}
-else {
-  console.log("Result is", mathPow(userChNum,userChPow));
+  return result;
 }
 
-function mathPow(){
+var x = prompt("число?", '');
+var n = prompt("степень?", '');
 
-var result = Math.pow(userChNum, userChPow );
+if ( isNaN(x) && isNaN(n)) {
+  alert('try again');
 
-return result;
 
-
+} else {
+  alert( pow(x, n) );
 }
