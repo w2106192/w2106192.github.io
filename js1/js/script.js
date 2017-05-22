@@ -1,20 +1,20 @@
-function pow(x, n) {
-  var result = x;
+function pow(num, power) {
+  var result = num;
 
-  for (var i = 1; i < n; i++) {
-    result *= x;
+  for (var i = 1; i < power; i++) {
+    result *= num;
   }
 
   return result;
 }
 
-var x = prompt("число?", '');
-var n = prompt("степень?", '');
+var num = prompt("число?", '');
+var power = prompt("степень?", '');
 
-if ( isNaN(x) && isNaN(n)) {
+if ( isNaN(num) && isNaN(power)) {
   alert('try again');
 
 
 } else {
-  alert( pow(x, n) );
+  alert( pow(num, power) );
 }
