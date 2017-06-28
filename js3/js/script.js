@@ -1,156 +1,54 @@
 "use strict"
 
+var p=document.createElement("h1");
 
+ var str=document.createTextNode("тест по программированию");
+ p.appendChild(str);
+ document.body.appendChild(p);
 
-  var div = document.createElement('h1');
-
-  div.innerHTML = "тест по программированию";
-
-  document.body.appendChild(div);
-
-
-var form = document.createElement('form');
-form.id = "cb"
-form.innerHTML = "1.Вопрос 1"
-
-  document.body.appendChild(form);
-
-  var cbh = document.getElementById('cb');
-      var val = '1';
-      var cap = 'Jan';
-
-      var cb = document.createElement('input');
-      cb.type = 'checkbox';
-      cbh.appendChild(cb);
-      cb.name = val;
-      cb.value = cap;
-      cb.appendChild(document.createTextNode(cap));
-      var cbh = document.getElementById('cb');
-          var val = '1';
-          var cap = 'Jan';
+ var anketa={'Вопрос  1':['ответ 1','ответ 2','ответ 3'],
+            'Вопрос 2':['ответ 1','ответ 2','ответ 3'],
+            'Вопрос 3':['ответ 1','ответ 2','ответ 3']}
+//        var anketa={'question 1':{'answer 1':true,'answer 2':false,'answer 3':true},
+//                   'question 2':['answer 1','answer 2','answer 3'],
+//                   'question 3':['answer 1','answer 2','answer 3']}
+ console.log(anketa);
 
 
 
 
 
+ var mylist=document.createElement("ul");
+ var m=0;
+ for(var k in anketa){
+//            document.write("<br>"+k+"="+anketa[k]);
+     m++;
+  var listItem=document.createElement("li");
+ var str=document.createTextNode(k);
+     listItem.appendChild(str);
+     var ans=document.createElement("ul");
+     listItem.appendChild(ans);
 
-          var cb = document.createElement('input');
-          cb.type = 'checkbox';
-          cbh.appendChild(cb);
-          cb.name = val;
-          cb.value = cap;
-          cb.appendChild(document.createTextNode(cap));
-          var cbh = document.getElementById('cb');
-              var val = '1';
-              var cap = 'Jan';
+     var n=anketa[k].length;
+     for(var i=0;i<n;i++){
+      var otvet=anketa[k][i]
+      var nameInput="v"+m+'_'+i;
+       var listItem2=document.createElement("li");
+         var myInput=document.createElement("input");
+         myInput.type="checkbox";
+         myInput.id=nameInput;
+         myInput.name=nameInput;
+         var myLabel=document.createElement("label");
+         myLabel.appendChild(myInput);
+         myLabel.appendChild(document.createTextNode(otvet));
+         listItem2.appendChild(myLabel);
+         ans.appendChild(listItem2);
 
-              var cb = document.createElement('input');
-              cb.type = 'checkbox';
-              cbh.appendChild(cb);
-              cb.name = val;
-              cb.value = cap;
-              cb.appendChild(document.createTextNode(cap));
-
-
-
-
-              var form = document.createElement('form');
-              form.id = "cb2"
-              form.innerHTML = "2.Вопрос 2"
-
-                document.body.appendChild(form);
-
-
-
-
-
-                  var cbh = document.getElementById('cb2');
-                      var val = '1';
-                      var cap = 'Jan';
-
-                      var cb = document.createElement('input');
-                      cb.type = 'checkbox';
-                      cbh.appendChild(cb);
-                      cb.name = val;
-                      cb.value = cap;
-                      cb.appendChild(document.createTextNode(cap));
-                      var cbh = document.getElementById('cb2');
-                          var val = '1';
-                          var cap = 'Jan';
-
-
-
-
-
-
-                          var cb = document.createElement('input');
-                          cb.type = 'checkbox';
-                          cbh.appendChild(cb);
-                          cb.name = val;
-                          cb.value = cap;
-                          cb.appendChild(document.createTextNode(cap));
-                          var cbh = document.getElementById('cb2');
-                              var val = '1';
-                              var cap = 'Jan';
-
-                              var cb = document.createElement('input');
-                              cb.type = 'checkbox';
-                              cbh.appendChild(cb);
-                              cb.name = val;
-                              cb.value = cap;
-                              cb.appendChild(document.createTextNode(cap));
-
-
-
-                                            var form = document.createElement('form');
-                                            form.id = "cb3"
-                                            form.innerHTML = "3.Вопрос 3"
-
-                                              document.body.appendChild(form);
-
-
-
-
-
-                                                var cbh = document.getElementById('cb3');
-                                                    var val = '1';
-                                                    var cap = 'Jan';
-
-                                                    var cb = document.createElement('input');
-                                                    cb.type = 'checkbox';
-                                                    cbh.appendChild(cb);
-                                                    cb.name = val;
-                                                    cb.value = cap;
-                                                    cb.appendChild(document.createTextNode(cap));
-                                                    var cbh = document.getElementById('cb3');
-                                                        var val = '1';
-                                                        var cap = 'Jan';
-
-
-
-
-
-
-                                                        var cb = document.createElement('input');
-                                                        cb.type = 'checkbox';
-                                                        cbh.appendChild(cb);
-                                                        cb.name = val;
-                                                        cb.value = cap;
-                                                        cb.appendChild(document.createTextNode(cap));
-                                                        var cbh = document.getElementById('cb3');
-                                                            var val = '1';
-                                                            var cap = 'Jan';
-
-                                                            var cb = document.createElement('input');
-                                                            cb.type = 'checkbox';
-                                                            cbh.appendChild(cb);
-                                                            cb.name = val;
-                                                            cb.value = cap;
-                                                            cb.appendChild(document.createTextNode(cap));
-
-
-
-
+     }
+     listItem.appendChild(ans);
+     mylist.appendChild(listItem);
+ }
+ document.body.appendChild(mylist);
 
 
 
@@ -164,5 +62,5 @@ form.innerHTML = "1.Вопрос 1"
 
                                                   var but = document.createElement('input');
                                                       but.type = 'submit';
-                                                      
+
                                                         butt.appendChild(but);
